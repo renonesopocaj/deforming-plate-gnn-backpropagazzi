@@ -1,6 +1,6 @@
 # deforming-plate-gnn-backpropagazzi
 
-1. Add a folder `raw_data` under `src` with the dataset
+1. Add a folder `raw_data` under `src` with the dataset. So it should be `src/raw_data/train.tfrecord` `src/raw_data/validation.tfrecord`
 2. Run `python main_data.py` to generate processed training data. See `dataconfig.yaml`.
 3. Run `python main_valid_data.py` to generate validation data transformed with normalization fitted on the training data
 4. Run `python train_egnn.py` to train egnn. See `config_egnn.yaml`
