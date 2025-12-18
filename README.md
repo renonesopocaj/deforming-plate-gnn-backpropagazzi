@@ -7,3 +7,5 @@
 5. Run `python train_gunet.py` to train egnn. See `config_gunet.yaml`
 6. Run `data_exploration.py` after having generated data to explore them
 7. Run `visualization_simulation.py` to run rollout on the different models EGNN or Graph-U-Net
+
+Where to download data: `https://www.swisstransfer.com/d/2346dac9-18c4-4073-aeb3-c56ebaeb2217`
